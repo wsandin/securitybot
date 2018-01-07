@@ -21,7 +21,7 @@ def init():
     logging.basicConfig(level=logging.DEBUG,
                         format='[%(asctime)s %(levelname)s] %(message)s')
     logging.getLogger('requests').setLevel(logging.WARNING)
-    logging.getLogger('usllib3').setLevel(logging.WARNING)
+    logging.getLogger('urllib3').setLevel(logging.WARNING)
 
 def main():
     init()
